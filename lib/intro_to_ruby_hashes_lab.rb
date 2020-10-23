@@ -3,11 +3,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  my_hash_creator = {
-    'name' => 'Tzvi'
-  }
-  
-  read_from_hash({'name' => 'Tzvi'}, 'name'))
+  read_from_hash(my_hash_creator, :name)
 end
 
 def update_counting_hash(hash, key)
