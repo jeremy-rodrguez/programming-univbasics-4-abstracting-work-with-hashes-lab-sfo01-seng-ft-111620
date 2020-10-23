@@ -4,7 +4,7 @@ end
 
 def read_from_hash(hash, key)
   my_hash_creator = {
-    :name 'Grace Hopper'
+    :name => 'Steve'
   }
 end
 
