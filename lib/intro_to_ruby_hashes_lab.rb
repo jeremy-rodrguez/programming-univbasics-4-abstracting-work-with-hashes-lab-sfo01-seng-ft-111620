@@ -3,12 +3,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash_to_read = {
-    location: "Hayward",
-    name: "Grace Hopper"
-  }
-  
-  read_from_hash(hash_to_read, :name)
+  my_hash_creator
 end
 
 def update_counting_hash(hash, key)
