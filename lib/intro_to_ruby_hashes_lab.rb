@@ -7,7 +7,7 @@ def read_from_hash(hash, key)
     :name => 'Grace Hopper'
   }
   
-  read_from_hash(my_hash_creator, :name)
+  my_hash_creator[:name]
 end
 
 def update_counting_hash(hash, key)
