@@ -8,6 +8,7 @@ def read_from_hash(hash, key)
     name: "Grace Hopper"
   }
   
+  read_from_hash(hash_to_read, :name)
 end
 
 def update_counting_hash(hash, key)
