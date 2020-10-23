@@ -8,10 +8,10 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key]
-    hash[key] = hash[key] + 1
+    hash[key] = hash[key] + 1  (# +=1 works here too!)
     
   else
-    
+    hash[key] = 1
     
     
   end
