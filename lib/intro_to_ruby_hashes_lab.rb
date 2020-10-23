@@ -5,7 +5,7 @@ end
 def read_from_hash(hash, key)
   my_hash_creator = {
     :name => 'Steve'
-  }
+  }zz
   
   read_from_hash(my_hash_creator, :name)
 end
